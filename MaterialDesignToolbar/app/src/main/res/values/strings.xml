@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">materialDesignToolbar</string>
+
+    <string name="action_settings">Setting</string>
+    <string name="action_call">Call</string>
+    <string name="action_search">Search</string>
+</resources>
