@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MaterialDesignTextBox</string>
+
+
+    <string-array name="dogs_list">
+        <item>Chihuahua</item>
+        <item>Beagle</item>
+        <item>Boxer</item>
+        <item>Border Collie</item>
+        <item>Border Terrier</item>
+        <item>Caca</item>
+        <item>Calamar</item>
+        <item>Calamardo</item>
+    </string-array>
+
+</resources>

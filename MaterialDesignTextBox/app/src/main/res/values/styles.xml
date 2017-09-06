@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Color EditText-->
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/verde</item>
+        <item name="colorControlActivated">@color/amarillo</item>
+    </style>
+
+    <!--@dimen/abc_text_size_subhead_material -> 16sp-->
+    <style name="FullWidthEdiTtext" parent ="Widget.AppCompat.EditText">
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+
+    <!--texto flotante-->
+    <style name="MyHintText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/verde</item>
+    </style>
+
+    <!--texto error-->
+    <style name="MyErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/naranja</item>
+    </style>
+
+    <!--Contador al sobrepasar-->
+    <style name="MyOverflowText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/amarillo</item>
+    </style>
+
+    <!--menu autocompletar-->
+    <style name="Autocomplete" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:background">@color/green500</item>
+        <item name="colorControlNormal">@color/amber500</item>
+        <item name="colorControlActivated">@color/cyan500</item>
+    </style>
+
+    <style name="SearchViewTheme" >
+        <item name="colorControlActivated">@color/amber500</item>
+        <item name="colorControlNormal">@color/green500</item>
+    </style>
+
+</resources>
