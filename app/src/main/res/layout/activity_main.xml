@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.materialdesignnotifications.MainActivity">
+
+
+    <Button
+        android:id="@+id/b_notificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Mostrar Notificaciones COMPAT"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/b_notificacion_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_notificacion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Mostrar Notificaciones SERVICE" />
+
+    <Button
+        android:id="@+id/b_notificacion_bigstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_notificacion_service"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Mostrar Notificacion BigStyle Text" />
+
+    <Button
+        android:id="@+id/b_notificacion_bigstyle_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_notificacion_bigstyle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Mostrar Notificacion BigStyle Imagen" />
+
+    <Button
+        android:id="@+id/b_notificacion_bigstyle_inbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_notificacion_bigstyle_picture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="Mostrar Notificacion BigStyle Inbox" />
+</RelativeLayout>
